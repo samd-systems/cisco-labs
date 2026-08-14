@@ -63,6 +63,8 @@ IP SLA-based HSRP tracking and OSPF backup paths provide coordinated gateway and
 
 ![Campus Distribution Failover](campus-failover.png)
 
+The capture shows the tracked object timing out, the HSRP priority dropping below the standby peer, gateway ownership moving to Cisco-Dist-SW2, and the core reinstalling the affected routes through the alternate path.
+
 The IT and server VLANs remain on Cisco-Dist-SW2 because their preferred gateway and routing paths already reside on that switch.
 
 ---
